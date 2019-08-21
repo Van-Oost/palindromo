@@ -3,7 +3,7 @@ function esPalindromo(palabra){
         var separado = palabra.split("");
         var separadoAlReves = separado.reverse();
         var alReves = separadoAlReves.join("");
-        if (alReves == palabra){
+        if (alReves === palabra){
             return true;
         } else return false;
     } else return false;
